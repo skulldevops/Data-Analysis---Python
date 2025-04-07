@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 plt.title("Product Sold")
 x = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 y = [10,25,50,75,100,150,200, 250, 300, 350, 400, 450]
-colors = ["red", "pink", "orange", "yellow", "green", "blue", "purple"]
+colors = ["blue", "purple"]
 
 #Plotting the chart
 plt.plot(x,y, color="blue", marker="o")
-plt.fill_between(x, y, color="red", alpha=0.2)
+plt.fill_between(x, y, color="blue", alpha=0.2)
 plt.grid()
 plt.legend(["Company Product Sold"])
 plt.xticks(rotation=45)
